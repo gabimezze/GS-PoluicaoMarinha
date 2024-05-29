@@ -1,0 +1,140 @@
+* {
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding: 0;
+}
+
+nav ul li a{
+    color: #ffffff;
+}
+
+nav ul li a.active {
+    color: #002d57;
+    font-weight:bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: 0;
+    }
+}
+
+header, nav, main, footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    color: #ffffff;
+    display: inline-flex;
+    align-items:center;
+    margin: 1% auto;
+    padding-left: 20%;
+    height: 9em;
+    margin-left: 4%;
+} 
+header h1{
+    margin: 0;
+    font-size: 2.0rem;
+    display: inline-block;
+}
+
+html body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 95%;
+}
+body{
+    background-image: url('../img/jeremy-bishop-1braZySlEKA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo-economia-azul{
+    background-size: cover;
+    margin-left: 10px;
+    display: inline-flex;
+    height: 40px;
+    margin-top: 10px;
+}
+.link{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+
+/*/ HOME /*/                  /*/                /*/
+
+.titulo-blue{
+    text-align: center;
+    font-size: 2.6rem;
+    margin: 12%;
+    color: #ffffff;
+}
+.destacada-blue{
+    color: #002e3b;
+}
+.frase-blue{
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 20%;
+    font-size: 2.7rem;
+    margin-bottom: 25%;
+}
+
+.sobre h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.6em;
+}
+.articleHome{
+    color: #ffffff;
+    box-sizing: border-box;
+    column-count: 2;
+    column-gap: 3rem;
+    margin: 10%;
+    margin-right: 17%;
+    margin-left: 17%;
+    margin-top: 3%;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+    .articleHome {
+        column-count: 1; /* Uma coluna para telas menores */
+    }
+}
+
+
+/*/ COMO AJUDAR /*/           /*/                /*/
+.containerAjuda nav {
+    display: flex;
+    justify-content: center;
+    background: #005f8e;
+}
+.containerAjuda nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.containerAjuda nav a:hover {
+    background: #004466;
+}
+.containerAjuda {
+    padding: 20px;
+}
