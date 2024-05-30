@@ -46,6 +46,7 @@ header h1{
     font-size: 2.3rem;
     display: inline-block;
     margin-left: 4%;
+    margin-right: 0;
 }
 
 html body{
@@ -65,6 +66,9 @@ body.home{
 }
 body.impactos{
     background-image: url('../img/background-impacto.jpg');
+}
+body.ajuda{
+    background-image: url('../img/background-ajuda.jpg');
 }
 .logo-blueocean{
     background-size: cover;
@@ -104,7 +108,7 @@ body.impactos{
     right: -800px;
     width: 500px;
     height: 100%;
-    background: #00141a;
+    background: #00233a;
     color: white;
     display: flex;
     flex-direction: column;
@@ -115,7 +119,8 @@ body.impactos{
 }
 @media only screen and (max-width:600px){
     .menu-icon{
-        margin-left: 10%;
+        margin-left: 0;
+        padding-left: 49%;
     }
 }
 .menu ul {
@@ -233,6 +238,7 @@ body.impactos{
     .titulo-impactos{
         margin-top: 80%;
         margin-left: 4%;
+        display: inline-block;
     }
 }
 .destacada-impactos{
@@ -263,19 +269,95 @@ body.impactos{
 }
 
 /*/ COMO AJUDAR /*/           /*/                /*/
-.containerAjuda nav {
+.titulo-ajuda{
+    text-align: center;
+    font-size: 2.6rem;
+    margin: 12%;
+    color: #ffffff;
+    margin-bottom: 23%;
+    margin-top: 20%;
+}
+@media  only screen and (max-width: 600px){
+    .titulo-ajuda{
+        margin-top: 80%;
+    }
+}
+.destacada-ajuda{
+    color: #0290d1;
+}
+.circuloAjuda{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #003a70;
     display: flex;
+    align-items: center;
     justify-content: center;
-    background: #005f8e;
-}
-.containerAjuda nav a {
+    background-color: transparent;
+    position: relative;
     color: white;
-    padding: 15px 20px;
-    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 46%;
 }
-.containerAjuda nav a:hover {
-    background: #004466;
+@media  only screen and (max-width: 600px){
+    .circuloAjuda{
+        margin-top: 60%;
+        margin-left: 28%;
+        margin-bottom: 70%;
+    }
 }
+
 .containerAjuda {
-    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 70px;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-top: 15%;
+}
+@media  only screen and (max-width: 600px){
+    .containerAjuda{
+        margin-top: 60%;
+    }
+}
+.containerAjuda h1 {
+    text-align: center;
+    color: #038bda;
+    margin-bottom: 14%;
+    font-size: 2.3rem;
+}
+.paragraph {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f998;
+    display: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+.toggle-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 40px 40px;
+    background-color: #b5c3d18e;
+    color: #fff;
+    border-radius: 8px;
+    transition: background-color 0.9s;
+    margin-bottom: 5%;
+    font-size: 1.4rem;
+}
+.toggle-button:hover {
+    background-color: #005bb594;
+}
+.arrow {
+    font-size: 20px;
+}
+@media  only screen and (max-width: 600px){
+    .arrow{
+        margin-left: 3%;
+    }
 }

@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <script src="../js/script.js"></script>
 </head>
-<body>
+<body class="ajuda">
     <header>
-        <div class="logo-economia-azul">
-        <img src="../img/icon-economia-azul.png" alt="icon-economia-azul">
-        </div>
+        <div class="logo-blueocean">
+        <img src="../img/icon-blueocean.png" alt="icon-economia-azul">
         <h1>BlueFuture</h1>
+        </div>
         <nav>
             <div class="menu-icon" onclick="toggleMenu()">
                 &#9776;
@@ -30,44 +30,49 @@
         </nav>
     </header>
 
-    <nav>
-        <a href="#por-que-importa">Por Que Importa</a>
-        <a href="#como-ajudar">Como Ajudar</a>
-        <a href="#reciclagem">Reciclagem</a>
-        <a href="#voluntariado">Voluntariado</a>
-        <a href="#doacoes">Doações</a>
-    </nav>
-    <div class="containerAjuda">
-        <section id="por-que-importa">
-            <h2>Por Que Importa</h2>
-            <p>
-                A poluição dos oceanos é um problema grave que afeta a vida marinha e a saúde humana. Milhões de toneladas de plástico e outros resíduos são despejados nos oceanos todos os anos, causando a morte de inúmeros animais marinhos e prejudicando os ecossistemas.
-            </p>
-        </section>
-        <section id="como-ajudar">
-            <h2>Como Ajudar</h2>
-            <p>
-                Há várias maneiras de contribuir para a redução da poluição dos oceanos. Desde mudanças simples no dia a dia até ações mais envolventes, cada gesto conta. Aqui estão algumas formas práticas de ajudar:
-            </p>
-        </section>
-        <section id="reciclagem">
-            <h2>Reciclagem</h2>
-            <p>
-                Recicle seus resíduos sempre que possível. A separação correta do lixo e o descarte adequado de materiais recicláveis ajudam a evitar que esses itens acabem no oceano.
-            </p>
-        </section>
-        <section id="voluntariado">
-            <h2>Voluntariado</h2>
-            <p>
-                Participe de limpezas de praia e eventos comunitários voltados para a proteção dos oceanos. Organizações ao redor do mundo realizam eventos regulares de coleta de lixo em praias e áreas costeiras.
-            </p>
-        </section>
-        <section id="doacoes">
-            <h2>Doações</h2>
-            <p>
-                Considere fazer doações para organizações que trabalham na conservação marinha e na luta contra a poluição dos oceanos. Seu apoio financeiro pode ajudar a financiar projetos de pesquisa, campanhas de limpeza e educação ambiental.
-            </p>
-        </section>
+    <div class="titulo-ajuda">
+        <h1><span class="destacada-ajuda"> Você </span> Pode Ajudar</h1>
     </div>
+    <div class="circulo"> Scroll Down </div>
+    <div class="containerAjuda">
+        <h1>Como Ajudar na Poluição Marinha</h1>
+
+        <div class="section">
+            <div class="toggle-button" onclick="toggleParagraph('para1')">
+                Reduza o uso de plásticos descartáveis <span class="arrow">▼</span>
+            </div>
+            <div class="paragraph" id="para1">
+                Reduzir o uso de plásticos descartáveis como sacolas, garrafas e canudos pode diminuir a quantidade de lixo marinho. Opte por alternativas reutilizáveis.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="toggle-button" onclick="toggleParagraph('para2')">
+                Participe de limpezas de praia <span class="arrow">▼</span>
+            </div>
+            <div class="paragraph" id="para2">
+                Junte-se a organizações locais para limpar praias e costas. Esses eventos ajudam a remover detritos e conscientizar sobre a poluição marinha.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="toggle-button" onclick="toggleParagraph('para3')">
+                Eduque-se e espalhe a palavra <span class="arrow">▼</span>
+            </div>
+            <div class="paragraph" id="para3">
+                Informe-se sobre as causas e efeitos da poluição marinha e compartilhe esse conhecimento com amigos, família e comunidades.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="toggle-button" onclick="toggleParagraph('para4')">
+                Apoie organizações e políticas ambientais <span class="arrow">▼</span>
+            </div>
+            <div class="paragraph" id="para4">
+                Apoie organizações que trabalham para proteger os oceanos e vote em políticas que promovam a conservação marinha.
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
