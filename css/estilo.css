@@ -186,7 +186,7 @@ body.impactos{
     font-size: 1.4rem;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .articleHome {
         column-count: 1; /* Uma coluna para telas menores */
         font-size: 1.3rem;
@@ -199,35 +199,45 @@ body.impactos{
 }
 
 /*/ IMPACTOS /*/            /*/               /*/
+@media only screen and (max-width: 600px) {
+    .articleHome {
+        column-count: 1; /* Uma coluna para telas menores */
+        font-size: 1.3rem;
+        margin-top: 15%;
+    }
+}
 .articleImpactos{
     color: #ffffff;
     box-sizing: border-box;
     column-count: 2;
     column-gap: 3rem;
-    margin: 12%;
+    margin: 10%;
     margin-right: 17%;
     margin-left: 17%;
-    margin-top: 0;
+    margin-top: 12%;
     font-size: 1.4rem;
 }
 .articleImpactos h1 {
     text-align: center;
-    color: #0270af;
+    color: #01a2ff;
 }
 .articleImpactos strong {
-    color: #6c98b6;
+    color: #63a1ca;
 }
 .titulo-impactos{
     text-align: center;
     font-size: 2.6rem;
     margin: 12%;
-    margin-top: 10%;
-    margin-left: 18%;
-    margin-bottom: 28%;
     color: #ffffff;
 }
+@media only screen and (max-width: 600){
+    .titulo-impactos{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
 .destacada-impactos{
-    color: #0270af;
+    color: #01a2ff;
 }
 .circulo {
     width: 200px;
@@ -243,8 +253,12 @@ body.impactos{
     font-size: 24px;
     font-weight: bold;
     margin-left: 50%;
-    margin-top: -2%;
-    margin-bottom: 10%;
+    margin-top: 10%;
+}
+@media  only screen and (max-width: 600px){
+    .circulo{
+        margin-top: 20%;
+    }
 }
 
 /*/ COMO AJUDAR /*/           /*/                /*/
