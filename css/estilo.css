@@ -5,10 +5,7 @@
 }
 
 nav ul li {
-    display: inline-flex;
-    margin-top: 10px;
-    margin-right: 20px;
-    padding-left: 30px;
+    display: block;
     padding: 0;
 }
 
@@ -17,7 +14,7 @@ nav ul li a{
 }
 
 nav ul li a.active {
-    color: #002d57;
+    color: #0e6486;
     font-weight:bolder;
 }
 
@@ -25,8 +22,6 @@ nav ul li a.active {
     nav ul li {
         display: block;
         margin-bottom: 10px;
-        margin-right: auto;
-        margin-left: 0;
     }
 }
 
@@ -41,14 +36,16 @@ header{
     display: inline-flex;
     align-items:center;
     margin: 1% auto;
-    padding-left: 20%;
+    padding-left: 0;
     height: 9em;
     margin-left: 4%;
+    position: relative;
 } 
 header h1{
     margin: 0;
-    font-size: 2.0rem;
+    font-size: 2.3rem;
     display: inline-block;
+    margin-left: 4%;
 }
 
 html body{
@@ -59,24 +56,87 @@ html body{
     font-size: 95%;
 }
 body{
-    background-image: url('../img/jeremy-bishop-1braZySlEKA-unsplash.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.logo-economia-azul{
+body.home{
+    background-image: url('../img/background-home.jpg');
+}
+body.impactos{
+    background-image: url('../img/background-impacto.jpg');
+}
+.logo-blueocean{
     background-size: cover;
     margin-left: 10px;
     display: inline-flex;
     height: 40px;
     margin-top: 10px;
 }
-.link{
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin-left: 5%;
+@media only screen and (max-width: 600px){
+    header {
+        margin-left: 0;
+        margin-right: 15%;
+    }
+}
+.menu-icon {
+    font-size: 4.0rem;
+    cursor: pointer;
+    margin: 100%;
+    margin-right: 0;
+    padding-left: 100%;
+    display: block;
+    
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    right: -800px;
+    width: 500px;
+    height: 100%;
+    background: #00141a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: right 0.6s ease;
+}
+@media only screen and (max-width:600px){
+    .menu-icon{
+        margin-left: 10%;
+    }
+}
+.menu ul {
+    padding: 0;
+}
+.menu ul li {
+    margin: 15px 0;
 }
 
+.menu ul li a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu.open {
+    right: 0;
+}
+
+.overlay.show {
+    display: block;
+}
 
 /*/ HOME /*/                  /*/                /*/
 
@@ -95,6 +155,18 @@ body{
     margin-right: 20%;
     font-size: 2.7rem;
     margin-bottom: 25%;
+}
+@media only screen and (max-width: 600px){
+    .frase-blue{
+        display: inline;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 600px){
+    .titulo-blue, .titulo-impactos{
+        margin-top: 80%;
+        margin-left: 4%;
+    }
 }
 
 .sobre h1{
@@ -117,9 +189,63 @@ body{
 @media (max-width: 768px) {
     .articleHome {
         column-count: 1; /* Uma coluna para telas menores */
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .sobre{
+        margin-top: 90%;
     }
 }
 
+/*/ IMPACTOS /*/            /*/               /*/
+.articleImpactos{
+    color: #ffffff;
+    box-sizing: border-box;
+    column-count: 2;
+    column-gap: 3rem;
+    margin: 12%;
+    margin-right: 17%;
+    margin-left: 17%;
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+.articleImpactos h1 {
+    text-align: center;
+    color: #0270af;
+}
+.articleImpactos strong {
+    color: #6c98b6;
+}
+.titulo-impactos{
+    text-align: center;
+    font-size: 2.6rem;
+    margin: 12%;
+    margin-top: 10%;
+    margin-left: 18%;
+    margin-bottom: 28%;
+    color: #ffffff;
+}
+.destacada-impactos{
+    color: #0270af;
+}
+.circulo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #003a70;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-top: -2%;
+    margin-bottom: 10%;
+}
 
 /*/ COMO AJUDAR /*/           /*/                /*/
 .containerAjuda nav {

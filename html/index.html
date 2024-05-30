@@ -8,22 +8,27 @@
     <link rel="shortcut icon" href="../img/icon-blueocean.png" type="image/x-icon">
     <script src="../js/script.js"></script>
 </head>
-<body>
+<body class="home">
     <header>
-        <div class="logo-economia-azul">
+        <div class="logo-blueocean">
         <img src="../img/icon-blueocean.png" alt="icon-economia-azul">
         <h1>BlueOcean</h1>
         </div>
         <nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+            <div id="menu" class="menu">
             <ul>
-                <li class="link"><a class="active" href="../html/index.html">Home</a></li>
-                <li class="link"><a href="../html/impactos.html">Impactos</a></li>
-                <li class="link"><a href="../html/comoajudar.html">Como ajudar</a></li>
-                <li class="link"><a href="../html/campanha.html">Campanha</a></li>
+                <li><a class="active" href="../html/index.html">Home</a></li>
+                <li><a href="../html/impactos.html">Impactos</a></li>
+                <li><a href="../html/comoajudar.html">Como ajudar</a></li>
+                <li><a href="../html/campanha.html">Campanha</a></li>
             </ul>
-        </nav>
-    </header>
-
+        </div>
+    </nav>
+</header>
 <!-- CONTEÚDO -->
     <div class="titulo-blue">
         <h1><span class="destacada-blue">Blue</span>Ocean</h1>
@@ -32,7 +37,7 @@
         </div>
     </div>
 
-    <span class="sobre"><h1>Sobre a Economia Azul</h1></span>
+    <div class="sobre"><h1>Sobre a Economia Azul</h1></div>
     <article class="articleHome">
     <p>A economia azul é um conceito emergente que busca transformar a maneira como exploramos e utilizamos os recursos dos oceanos, mares e zonas costeiras para promover um desenvolvimento econômico sustentável e inclusivo. Diferente da economia tradicional, que muitas vezes se baseia na exploração excessiva e na degradação ambiental, a economia azul foca na preservação dos ecossistemas marinhos enquanto se promove o crescimento econômico e o bem-estar social.</p>
     <p>Este modelo econômico reconhece a importância vital dos oceanos, que cobrem mais de 70% da superfície da Terra e são essenciais para a regulação do clima, a produção de oxigênio e a manutenção da biodiversidade. A economia azul busca aproveitar o potencial econômico dos oceanos de maneira responsável, incluindo a pesca sustentável, o turismo marinho, a biotecnologia marinha, a energia renovável oceânica, e a exploração mineral no fundo do mar, sempre com um olhar atento à conservação dos ecossistemas marinhos.</p>
