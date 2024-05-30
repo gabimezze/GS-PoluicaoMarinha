@@ -138,7 +138,7 @@ body.impactos{
     display: block;
 }
 
-/*/ HOME /*/                  /*/                /*/
+/*/ HOME /*/                  /*/                        /*/
 
 .titulo-blue{
     text-align: center;
@@ -163,7 +163,7 @@ body.impactos{
     }
 }
 @media only screen and (max-width: 600px){
-    .titulo-blue, .titulo-impactos{
+    .titulo-blue{
         margin-top: 80%;
         margin-left: 4%;
     }
@@ -200,10 +200,9 @@ body.impactos{
 
 /*/ IMPACTOS /*/            /*/               /*/
 @media only screen and (max-width: 600px) {
-    .articleHome {
+    .articleImpactos {
         column-count: 1; /* Uma coluna para telas menores */
         font-size: 1.3rem;
-        margin-top: 15%;
     }
 }
 .articleImpactos{
@@ -217,7 +216,7 @@ body.impactos{
     margin-top: 12%;
     font-size: 1.4rem;
 }
-.articleImpactos h1 {
+.articleImpactos h2 {
     text-align: center;
     color: #01a2ff;
 }
@@ -232,8 +231,8 @@ body.impactos{
 }
 @media only screen and (max-width: 600){
     .titulo-impactos{
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 80%;
+        margin-left: 4%;
     }
 }
 .destacada-impactos{
@@ -257,7 +256,9 @@ body.impactos{
 }
 @media  only screen and (max-width: 600px){
     .circulo{
-        margin-top: 20%;
+        margin-top: 60%;
+        margin-left: 28%;
+        margin-bottom: 70%;
     }
 }
 
