@@ -286,7 +286,7 @@ body.campanha{
     margin: 12%;
     color: #ffffff;
     margin-bottom: 23%;
-    margin-top: 20%;
+    margin-top: 13%;
 }
 @media  only screen and (max-width: 600px){
     .titulo-ajuda{
@@ -294,7 +294,7 @@ body.campanha{
     }
 }
 .destacada-ajuda{
-    color: #0290d1;
+    color: #014261;
 }
 .circuloAjuda{
     width: 200px;
@@ -322,7 +322,7 @@ body.campanha{
 .containerAjuda {
     max-width: 600px;
     margin: auto;
-    padding: 70px;
+    padding: 80px;
     background-color: transparent;
     border-radius: 8px;
     margin-top: 15%;
@@ -334,16 +334,16 @@ body.campanha{
 }
 .containerAjuda h1 {
     text-align: center;
-    color: #038bda;
+    color: #02618d;
     margin-bottom: 14%;
     font-size: 2.3rem;
 }
 .paragraph {
-    margin: 20px 0;
-    padding: 10px;
+    margin: 6px 0;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f9f9f998;
+    background-color: #f9f9f971;
     display: none;
     color: #ffffff;
     font-size: 1.4rem;
@@ -353,19 +353,19 @@ body.campanha{
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    padding: 40px 40px;
-    background-color: #b5c3d18e;
+    padding: 70px 90px;
+    background-color: #b5c3d171;
     color: #fff;
     border-radius: 8px;
     transition: background-color 0.9s;
-    margin-bottom: 5%;
-    font-size: 1.4rem;
+    margin-bottom: 6%;
+    font-size: 1.5rem;
 }
 .toggle-button:hover {
     background-color: #005bb594;
 }
 .arrow {
-    font-size: 20px;
+    font-size: 40px;
 }
 @media  only screen and (max-width: 600px){
     .arrow{
@@ -450,8 +450,8 @@ body.campanha{
     background-color: #9c9c9c56;
     color: #fff;
     text-align: center;
-    padding: 5% 27%;
-    margin-top: 0;
+    padding: 60px 671px;
+    margin-top: 6%;
 }
 @media  only screen and (max-width: 600px){
     .footer{
