@@ -81,6 +81,11 @@ body.campanha{
     margin-top: 10px;
 }
 @media only screen and (max-width: 600px){
+    .logo-blueocean{
+        margin-left: 4%;
+    }
+}
+@media only screen and (max-width: 600px){
     header {
         margin-left: 0;
         margin-right: 15%;
