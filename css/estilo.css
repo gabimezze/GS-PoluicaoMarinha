@@ -70,6 +70,9 @@ body.impactos{
 body.ajuda{
     background-image: url('../img/background-ajuda.jpg');
 }
+body.campanha{
+    background-image: url('../img/background-campanha.jpg');
+}
 .logo-blueocean{
     background-size: cover;
     margin-left: 10px;
@@ -219,7 +222,7 @@ body.ajuda{
         margin-top: 80%;
     }
 }
-.circulo {
+.circuloImpactos {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -236,7 +239,7 @@ body.ajuda{
     margin-top: 10%;
 }
 @media  only screen and (max-width: 600px){
-    .circulo{
+    .circuloImpactos{
         margin-top: 60%;
         margin-left: 28%;
         margin-bottom: 70%;
@@ -358,5 +361,75 @@ body.ajuda{
 @media  only screen and (max-width: 600px){
     .arrow{
         margin-left: 3%;
+    }
+}
+
+/*/ CAMPANHA /*/                      /*/                            /*/
+
+.titulo-campanha{
+    text-align: center;
+    font-size: 2.6rem;
+    margin: 12%;
+    color: #ffffff;
+    margin-bottom: 15%;
+}
+.destacada-campanha{
+    color:#007292;
+}
+@media only screen and (max-width: 600px){
+    .titulo-campanha{
+        display: inline-block;
+        margin-top: 40%;
+    }
+}
+.circuloCampanha{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #003a70;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 46%;
+    margin-bottom: 10%;
+}
+@media  only screen and (max-width: 600px){
+    .circuloCampanha{
+        margin-top: 60%;
+        margin-left: 28%;
+        margin-bottom: 70%;
+    }
+}
+.articleCampanha{
+    color: #ffffff;
+    box-sizing: border-box;
+    column-count: 1;
+    column-gap: 3rem;
+    margin: 30%;
+    margin-top: 12%;
+    font-size: 1.6rem;
+}
+.articleCampanha h2{
+    text-align: center;
+    margin-bottom: 7%;
+    color:#0a67a5; 
+}
+@media only screen and (max-width: 600){
+    .articleCampanha h2 {
+        display: inline-block;
+    }
+}
+.articleCampanha strong{
+    color: #00c8ff;
+}
+@media  only screen and (max-width: 600px){
+    .articleCampanha{
+        
+        font-size: 1.3rem;
     }
 }
