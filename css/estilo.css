@@ -145,6 +145,14 @@ body.campanha{
 .overlay.show {
     display: block;
 }
+.close-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    font-size: 3.0rem;
+}
 
 /*/ HOME /*/                  /*/                        /*/
 
