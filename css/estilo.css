@@ -94,9 +94,8 @@ body.campanha{
 .menu-icon {
     font-size: 4.0rem;
     cursor: pointer;
-    margin: 100%;
-    margin-right: 0;
-    padding-left: 100%;
+    margin-right: 100%;
+    margin-left: 0;
     display: block;
     
 }
