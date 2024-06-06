@@ -11,11 +11,16 @@ nav ul li {
 
 nav ul li a{
     color: #ffffff;
+    cursor: pointer;
 }
 
 nav ul li a.active {
     color: #0e6486;
     font-weight:bolder;
+}
+
+button{
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
@@ -457,6 +462,70 @@ body.campanha{
         display: inline;
     }
 }
+
+/*/ INTEGRANTES /*/                                        /*/                                              /*/
+.containerContato {
+    width: 80%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.322);
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 20px;
+    margin-left: 27%;
+}
+.profile {
+    text-align: center;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+}
+.profile .social-links {
+    padding: 0;
+}
+.profile .social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+.profile .social-links a {
+    color: #333;
+}
+.contact-form {
+    margin-top: 20px;
+}
+.contact-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #ffffff8b;
+}
+.contact-form button {
+    padding: 10px 15px;
+    background: #752cfd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.contact-form button:hover {
+    background: #4701cb;
+}
+
 
 /*/ RODAPÉ /*/                              /*/                         /*/
 .footer {
