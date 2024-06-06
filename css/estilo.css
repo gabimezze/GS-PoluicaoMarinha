@@ -65,7 +65,7 @@ body.home{
     background-image: url('../img/background-home.jpg');
 }
 body.impactos{
-    background-image: url('../img/background-impactos.jpg');
+    background-image: url('../img/background-impacto.jpg');
 }
 body.ajuda{
     background-image: url('../img/background-ajuda.jpg');
@@ -127,10 +127,10 @@ body.campanha{
 }
 @media only screen and (max-width:1920px){
     .menu-icon{
-        padding-left: 50%;
+        padding-left: 10%;
     }
     .menu{
-        right: 0;
+        right: 1;
     }
 }
 @media only screen and (max-width:600px){
@@ -243,7 +243,7 @@ body.campanha{
     }
 }
 .destacada-impactos{
-    color: #01a2ff;
+    color: #0769a1;
 }
 .circuloImpactos {
     width: 200px;
@@ -280,10 +280,10 @@ body.campanha{
 }
 .articleImpactos h2 {
     text-align: center;
-    color: #01a2ff;
+    color: #5ec2fb;
 }
 .articleImpactos strong {
-    color: #63a1ca;
+    color: #58bafc;
 }
 @media only screen and (max-width: 600px) {
     .articleImpactos {
@@ -313,7 +313,7 @@ body.campanha{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #003a70;
+    border: 5px solid #004d95;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -396,7 +396,7 @@ body.campanha{
     margin-bottom: 15%;
 }
 .destacada-campanha{
-    color:#007292;
+    color:#10a4cd;
 }
 @media only screen and (max-width: 600px){
     .titulo-campanha{
@@ -441,7 +441,7 @@ body.campanha{
 .articleCampanha h2{
     text-align: center;
     margin-bottom: 7%;
-    color:#0a67a5; 
+    color:#0e7dc8; 
 }
 @media only screen and (max-width: 600){
     .articleCampanha h2 {
@@ -460,7 +460,7 @@ body.campanha{
 
 /*/ RODAPÉ /*/                              /*/                         /*/
 .footer {
-    background-color: #9c9c9c56;
+    background-color: #9c9c9c75;
     color: #fff;
     text-align: center;
     padding: 60px 671px;
@@ -469,6 +469,11 @@ body.campanha{
 @media  only screen and (max-width: 600px){
     .footer{
         padding-left: 0;
+    }
+}
+@media  only screen and (max-width: 1920px){
+    .footer{
+        padding-left: 7%;
     }
 }
 .footer a {
