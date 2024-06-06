@@ -65,7 +65,7 @@ body.home{
     background-image: url('../img/background-home.jpg');
 }
 body.impactos{
-    background-image: url('../img/background-impacto.jpg');
+    background-image: url('../img/background-impactos.jpg');
 }
 body.ajuda{
     background-image: url('../img/background-ajuda.jpg');
@@ -124,6 +124,14 @@ body.campanha{
     align-items: center;
     z-index: 2;
     transition: right 0.6s ease;
+}
+@media only screen and (max-width:1920px){
+    .menu-icon{
+        padding-left: 50%;
+    }
+    .menu{
+        right: 0;
+    }
 }
 @media only screen and (max-width:600px){
     .menu-icon{
